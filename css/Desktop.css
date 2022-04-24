@@ -333,6 +333,7 @@ border: 2px solid #2b77ca;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
    
 }
 
@@ -353,9 +354,37 @@ border: 2px solid #2b77ca;
     border: 1px solid orange;
 }
 
-.body2img img{
+.body2box img{
     height: 80px;
     width: 80px;
+}
+
+.body2box h3{
+    margin-top: 10px;
+    font-family: Lato, sans-serif;
+    font-size:  24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: rgb(18, 62, 125);
+    transition: all 350ms;
+    transform: scale(1);
+    
+
+}
+
+.body2box h3:hover{
+    transform: scale(1.012);
+    color: rgb(255, 140, 38);
+}
+
+.body2box h6{
+    margin-top: 10px;
+    font-family: Lato, sans-serif;
+    font-size:  17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: rgb(68, 68, 79);
+
 }
 
 .thirdbody2{
@@ -373,3 +402,11 @@ border: 2px solid #2b77ca;
 
 
 /* <!-- body 2 end--> */
+
+
+
+
+/* <!-- body 4 start--> */
+
+
+/* <!-- body 4 end--> */
