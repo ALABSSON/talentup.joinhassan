@@ -407,6 +407,109 @@ border: 2px solid #2b77ca;
 
 
 /* <!-- body 4 start--> */
+.container4{
+    height: 250px;
+    width: 100%;
+    background-color: #FFF5EB;
+    display: flex;
+}
+
+.contain4first{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: url(/image/goal_image1.f7a48c63.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.circle2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: url(/image/goal_image2.eb64590e.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contain4second{
+    height: 100%;
+    width: 60%;
+    background-color: #FFF5EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.contain4second h3{
+    font-family: Lato, sans-serif;
+    font-size:  32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: rgb(68, 68, 79);
+ 
+}
+
+.contain4second span{
+    color: rgb(255, 140, 38);
+}
+
+.contain4second button{
+    margin-top: 20px;
+    height: 55px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: rgb(255, 140, 38);
+    border: none;
+    font-family: Lato, sans-serif;
+    font-size:  14px;
+    font-weight: 400;
+    line-height: 20.986px;
+    color: rgb(255, 255, 255);
+    transition: all 350ms ease;
+    transform: scale(1);
+    cursor: pointer;
+
+}
+
+.contain4second button:hover{
+    transform: scale(1.002);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.453);
+}
 
 
 /* <!-- body 4 end--> */
+
+
+
+/* body 6 start */
+.container6{
+    width: 100%;
+    height: 150px;
+    background-color: #2B77CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 button{
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: none;
+}
+
+
+/* body 6 end */
