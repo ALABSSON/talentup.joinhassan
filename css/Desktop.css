@@ -300,6 +300,8 @@ border: 2px solid #2b77ca;
 }
 
 .firstbody2 h2{
+    width: 60%;
+    text-align: center;
     font-family:  Lato, sans-serif;
     Font-size: 32px;
     Font-weight: 700;
